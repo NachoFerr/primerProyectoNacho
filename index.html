@@ -12,22 +12,37 @@
 <body>
     <header>
               
-        <nav class="navbar">
-            <p class="logo">FF <span>one</span></p> <!-- Logo uso span para mejorar aspecto con CSS -->
-            <ul>
-                <li class="menu"><a href="index.html">Inicio</a></li>
-                <li class="menu"><a href="acercadeffone.html">Acerca de FFOne</a></li>
-                <li class="menu"><a href="servicios.html">Servicios</a>
-                    <!-- <ul class="sumMenu">
-                        <li ><a href="servicios.html#maritimo">Marítimo</a>
-                            <li ><a href="servicios.html#aereo">Aéreo</a>
-                                <li ><a href="servicios.html#multimodal">Multimodal</a>
-                   </ul> -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">FFONe</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="menu"><a href="noticias.html">Noticias</a></li>
-                <li class="menu"><a href="contacto.html">Contacto</a></li>
-            </ul>        
-        </nav>
+                <li class="nav-item">
+                  <a class="nav-link" href="acercadeffone.html">Acerca de FFOne</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="servicios.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                     Servicios
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#">Aereo</a>
+                      <a class="dropdown-item" href="#">Marítimo </a>
+                      <a class="dropdown-item" href="#">Almacenaje</a>
+                    </div>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="noticias.html">Noticias</a>
+                </li>
+              </ul>
+            </div>
+                </nav>
+              </div>
+          </nav>
 
     </header>
     <main class="banner">
@@ -40,7 +55,7 @@
         <br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, quas ea. Iusto officiis quis necessitatibus iste iure tempora. Quisquam earum excepturi, voluptas animi soluta aperiam maiores illum neque inventore eligendi!
         Autem eaque aut nam natus dolores voluptate minus assumenda nostrum officia at commodi consectetur, veniam, explicabo deleniti ipsa asperiores iste molestiae in cupiditate aspernatur dolore tenetur accusantium. Quasi, odit repellendus.
-        Adipisci suscipit quam nesciunt cum sit modi aperiam quasi deserunt repellat illum esse voluptate delectus unde eveniet, ex eum, possimus architecto. Tempora iusto ratione, illo mollitia nulla quam repellendus eaque!</p>
+        Adipisci suscipit quam nesciunt cum sit modi aperiam quasi deserunt repellat illum esse voluptate delectus unde eveniet, ex eum, possimus architecto. Tempora iusto ratione, illo mollitia nulla quam repellendus eaque! pp</p>
     <!-- Inicio botón para contacto en todas las pantallas https://ovdivi.com/colocar-un-boton-fijo-o-flotante-en-la-parte-inferior-de-nuestro-sitio-con-divi/ -->
 
     <a href="contacto.html" class="btn-flotante">Solicitá cotización o info adicional</a>
