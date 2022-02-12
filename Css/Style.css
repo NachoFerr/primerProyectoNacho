@@ -118,13 +118,28 @@ padding: 5px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.form-group{
-    padding: 10px;
-    margin-left: 25px;
-    font-size: 18px;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+// Sass map from `_variables.scss`
+// Override this and recompile your Sass to generate different states
+$form-validation-states: map-merge(
+  (
+    "valid": (
+      "color": $form-feedback-valid-color,
+      "icon": $form-feedback-icon-valid
+    ),
+    "invalid": (
+      "color": $form-feedback-invalid-color,
+      "icon": $form-feedback-icon-invalid
+    )
+  ),
+  $form-validation-states
+);
 
+// Loop from `_forms.scss`
+// Any modifications to the above Sass map will be reflected in your compiled
+// CSS via this loop.
+@each $state, $data in $form-validation-states {
+  @include form-validation-state($state, map-get($data, color), map-get($data, icon));
+}
 }
 /* Fin estilo formulario de contacto */
 
