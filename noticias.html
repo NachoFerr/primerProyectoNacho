@@ -4,46 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>FFOne Agente de Cargas</title>
 </head>
 <body>
-    <header>
-              
-        <nav class="navbar">
-            <p class="logo">FF <span>one</span></p> <!-- Logo uso span para mejorar aspecto con CSS -->
-            <ul>
-                <li class="menu"><a href="index.html">Inicio</a></li>
-                <li class="menu"><a href="acercadeffone.html">Acerca de FFOne</a></li>
-                <li class="menu"><a href="servicios.html">Servicios</a></li>
-                <li class="menu"><a href="noticias.html">Noticias</a></li>
-                <li class="menu"><a href="contacto.html">Contacto</a></li>
-            </ul>        
-        </nav>
+</head>
 
-    </header>
-    <main class="bannerNoticias">
-
-    </main>
-    <!-- Inicio botón para contacto en todas las pantallas https://ovdivi.com/colocar-un-boton-fijo-o-flotante-en-la-parte-inferior-de-nuestro-sitio-con-divi/ -->
-    
-    <a href="contacto.html" class="btn-flotante">Solicitá cotización o info adicional</a>
-    <!-- Fin  botón para contacto en todas las pantallas https://ovdivi.com/colocar-un-boton-fijo-o-flotante-en-la-parte-inferior-de-nuestro-sitio-con-divi/  -->
-
-    <!--  Inicio Noticias -->
-   <div class="noticias" >
-
-       <a href="https://www.uruguayxxi.gub.uy/es/noticias/articulo/informe-del-sector-logistico-en-uruguay/">Noticias Uruguay XXI</a>
-    <br>
-    <br>
-       <img src="css/img/INFORME-SECTOR-LOGISTICO-7.jpeg" alt="Imagen primera Noticia">
-              <p>
-                        Fecha de publicación: 28/12/2017
+<header class="header">
+          
+    <nav class="navbar navbar-expand-lg navbar-blue bg-blue">
+        <a class="navbar-brand" href="#">FFOne</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="acercadeffone.html">Acerca de FFOne</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="servicios.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                 Servicios
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="servicios.html">Aereo</a>
+                  <a class="dropdown-item" href="servicios.html">Marítimo </a>
+                  <a class="dropdown-item" href="servicios.html">Almacenaje</a>
+                </div>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="noticias.html">Noticias</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+          </ul>
+        </div>
+            </nav>
+          </div>
+      </nav>
+</header>
+<!-- Inicio Noticias -->
+<div class="card w-75">
+    <div class="card-body">
+      <h5 class="card-title">Inform sector logístico 2022</h5>
+      <p class="card-text">Fecha de publicación: 28/12/2017
         El sector transporte y almacenamiento, vinculado directamente con el sector logístico, representó aproximadamente 3,6% del PIB de Uruguay[1]. Esto, junto con su importancia para el desarrollo del comercio internacional y como soporte de la actividad industrial, denota el carácter estratégico y el potencial que tiene este sector para la economía.
-                </p>
-   </div>
-   <!-- Fin Noticias -->
+        
+        Uruguay cuenta con una ubicación geográfica destacada, con dos puertos en la principal puerta de entrada de la costa atlántica Sur, que permiten acceder a la hidrovía Paraná-Paraguay-Uruguay. Es así, que se posiciona como el hub regional por excelencia para el Cono Sur.
+        
+        El país ofrece importantes ventajas para la localización de Centros de Distribución Regional, dado que el marco normativo de Uruguay ofrece importantes ventajas para la operativa logística, con incentivos importantes para la instalación de CDR´s y para el manejo de la mercadería en tránsito. El mismo incluye regímenes de Zona Franca, Puertos y Aeropuertos Libre, Depósitos aduaneros y Admisión Temporaria.
+        
+        Uruguay cuenta con una infraestructura adecuada, un moderno aeropuerto y la red de transporte carretero más densa de toda Latinoamérica, que además está en plena actualización. Tiene puertos con una infraestructura de primer nivel, únicos en la costa Atlántica Sur que operan bajo el sistema de Puerto Libre; y un régimen similar para los aeropuertos.
+        
+        El sector logístico tiene en Uruguay su propia institucionalidad. En 2010 se creó por ley el Instituto Nacional de Logística (INALOG) que actúa como espacio de participación y coordinación público-privada para el desarrollo del sector.
+        
+        La profundización de la globalización y la creciente internacionalización de las economías han implicado un fuerte desarrollo de las oportunidades en el sector logístico a nivel mundial. Conozca las características de este sector con gran potencial en el Uruguay en el informe, haciendo clic aquí.
+        
+        [1] Fuente: Observatorio Nacional de Infraestructura, Transporte y Logística.</p>
+      <a href="https://www.uruguayxxi.gub.uy/es/noticias/articulo/informe-del-sector-logistico-en-uruguay/" class="btn btn-primary">Ir a informe</a>
+    </div>
+  </div>
+  
+  <div class="card w-50">
+    <div class="card-body">
+      <h5 class="card-title">El 40% de los ingresos del Correo Uruguayo, en tres años serán de logística </h5>
+      <p class="card-text">
+        ÓSCAR GRANADOS|Madrid|13 FEB 2022 - 05:45 CET
+        El presidente de la empresa pública ve en la paquetería el futuro de la compañía ante la caída del negocio postal. “En 2021 perdimos la gestión de 212 millones de cartas”, reconoce </p>
+      <a href="https://elpais.com/noticias/logistica/" class="btn btn-primary">Ir a informe</a>
+    </div>
+  </div>
     <footer>
         <div class="navbar">
             <p class="logo">FF <span>One</span></p> <!-- Logo uso span para mejorar aspecto con CSS -->
@@ -60,5 +96,8 @@
                
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 </body>
 </html>

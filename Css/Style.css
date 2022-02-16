@@ -111,8 +111,11 @@ padding: 5px;
 /* Inicio Estilo Formulario de Contacto */
 .body-form{
     background-color: skyblue;
-    padding: 10 px 20px 10px 20px ;
-    margin: 5px;
+    padding: 15px  ;
+    margin: 20px 50px 20px 50px;
+}
+.btn btn-primary{
+    padding: 10px;
 }
 // Sass map from `_variables.scss`
 // Override this and recompile your Sass to generate different states
@@ -171,3 +174,8 @@ $form-validation-states: map-merge(
 }  */
   
 /* Fin estilo botón de contacto */
+.btn-flotante{
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+}
