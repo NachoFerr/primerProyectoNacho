@@ -1,8 +1,17 @@
+
+/* Variablesn y configuración general */
+:root{
+  --color0: white;
+  --color1:blue;
+  --color2: black;
+  --color3: rgb(239, 239, 248);
+}
+
 /* Inicio barra de navegación */
 .navbar{
 min-width: 900px;
-    height: 60px;
-   background: rgb(13, 0, 128);
+    height: 90px;
+   background: rgb(119, 108, 218);
   }
 .navbar p{
     float: left;
@@ -17,9 +26,8 @@ min-width: 900px;
        }
 .navbar a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
-    font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
         }
@@ -33,33 +41,45 @@ min-width: 900px;
         } */
 
         /* Fin menú de navegación */
+/* Inicio Logo */
 
-.logo{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-  color: white;
-  text-transform: capitalize;
-text-shadow: 40px;
+/* Fin Logo */
+.navbar-brand{
+size: 50px 50px;
 
 }
-.logo span{
-    text-transform: uppercase;
-    color:whitesmoke;
+
+
+/* Inicio  Estilo acerca de FFOne Inicio */
+.mt-4{
+  background-image: url(img/Equipo2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  color: var(--color2);
+  text-shadow: 0 0 3px #333;
+  text-align: left;
 }
-/* Estilo banner Inicio */
-.banner{
-height: 100vh;
-width: 100%;
-margin:none;
-padding: 10px ;
-background-image: url(Img/cargo-gfb61b7c2a_1920.jpg);
-background-size: cover;
-background-position: center;
-margin-top: 5px; 
-padding: 5px;
-} 
-/* Fin Estilo banner Inicio */
+.gradientacercade{
+  width: 500px;
+  align-items: left;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Fin  Estilo acerca de FFOne Inicio */
+
+/* Inicio  Estilo  Imagen Inicio */
+.card{
+  text-shadow: 0 0 3px #333;
+  text-align: left;
+}
+.card-img-top{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-image: -moz-linear-gradient rgba(0, 0, 0, 0.9);
+}
+
+
 /* Estilo Noticias */
 .bannerNoticias{
     height: 75vh;
@@ -110,10 +130,10 @@ padding: 5px;
  
 /* Inicio Estilo Formulario de Contacto */
 .body-form{
-    background-color: skyblue;
+    background-color: var(--color3);
     padding: 15px  ;
     margin: 20px 50px 20px 50px;
-}
+    }
 .btn btn-primary{
     padding: 10px;
 }
@@ -139,6 +159,9 @@ $form-validation-states: map-merge(
 @each $state, $data in $form-validation-states {
   @include form-validation-state($state, map-get($data, color), map-get($data, icon));
 }
+}
+.titcontactos{
+  text-transform: uppercase;
 }
 /* Fin estilo formulario de contacto */
 
@@ -179,3 +202,28 @@ $form-validation-states: map-merge(
     height: 600px;
     padding: 10px;
 }
+/* Estilo Footer */
+.pie{
+  background-color: var(--color1)!important;
+  color: var(--color0)!important;
+}
+.nav{
+  margin-left: 120px;
+}
+.pie a{
+text-align: right;
+text-decoration: none;
+padding: 5px;
+}
+.iconos{
+  text-align: right;
+}
+
+.mt-5{
+  height: 600px;
+  width: 100%;
+  background-color: var(--color1);
+  background-image: url(img/wave-haikei\ \(2\).svg),url(img/businessman-g8fc24a16b_1920.jpg);
+  background-size:cover;
+  background-position: center;
+  }
