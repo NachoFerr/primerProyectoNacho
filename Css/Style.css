@@ -11,7 +11,7 @@
 .navbar{
 min-width: 900px;
     height: 90px;
-   background: rgb(119, 108, 218);
+   background: var(--color1);
   }
 .navbar p{
     float: left;
@@ -52,7 +52,7 @@ size: 50px 50px;
 
 /* Inicio  Estilo acerca de FFOne Inicio */
 .mt-4{
-  background-image: url(Imgreducido/Imagen\ acerca\ de\ FFOne.jpg);
+  background-image: url(../images/acerca-de_FFone.jpg);
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -65,6 +65,8 @@ size: 50px 50px;
   align-items: left;
   background-color: rgba(0, 0, 0, 0.1);
 }
+
+
 
 /* Fin  Estilo acerca de FFOne Inicio */
 
@@ -85,7 +87,7 @@ size: 50px 50px;
     height: 75vh;
     width: 75%;
     padding: 10px ;
-    background-image: url(Img/logistics-g2c29519d3_640.png);
+    background-image: url(../images/Noticiaslogistica.jpg);
     background-size:cover;
    background-position: center;
     margin-top: 5px; 
@@ -223,7 +225,12 @@ padding: 5px;
   height: 600px;
   width: 100%;
   background-color: var(--color1);
-  background-image: url(img/wave-haikei\ \(2\).svg),url(img/businessman-g8fc24a16b_1920.jpg);
+  background-image: url(../images/bg-onda-azul.svg),url(../images/Noticiaslogistica.jpg);
   background-size:cover;
   background-position: center;
   }
+
+.navbar-collapse.show {
+    background: blue;
+    z-index: 999;
+}
