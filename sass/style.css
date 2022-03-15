@@ -529,13 +529,6 @@ nav a:hover {
           transform: translateY(-7px);
 }
 
-/* /* @media only screen and (max-width: 600px) {
-       .btn-flotante {
-          font-size: 14px;
-          padding: 12px 20px;
-          bottom: 20px;
-          right: 20px;
-      } */
 /* Fin estilo botón de contacto */
 .btn-flotante {
   width: 100%;
@@ -553,16 +546,6 @@ nav a:hover {
   margin-left: 120px;
 }
 
-.pie a {
-  text-align: right;
-  text-decoration: none;
-  padding: 5px;
-}
-
-.iconos {
-  text-align: left;
-}
-
 .mt-5 {
   height: 600px;
   width: 100%;
@@ -575,5 +558,25 @@ nav a:hover {
 .navbar-collapse.show {
   background: blue;
   z-index: 999;
+}
+
+/* Variablesn y configuración general */
+:root {
+  --color0: white;
+  --color1:blue;
+  --color2: black;
+  --color3: rgb(239, 239, 248);
+}
+
+.pie {
+  text-align: right;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.iconos {
+  padding: 10px;
+  text-align: center !important;
+  margin-top: 10px !important;
 }
 /*# sourceMappingURL=style.css.map */

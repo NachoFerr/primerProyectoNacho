@@ -1,17 +1,22 @@
 
-/* Variablesn y configuración general */
+/* Variables y configuración general */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+$fuente1:´Roboto´,400;
+$fuente2: ´ital400´;
 :root{
-    --color0: white;
-    --color1:blue;
-    --color2: black;
-    --color3: rgb(239, 239, 248);
-  }
+    $color0: white;
+    $color1:blue;
+    $color2: black;
+    $color3: rgb(239, 239, 248);
+}
   
   /* Inicio barra de navegación */
   .navbar{
   min-width: 900px;
       height: 90px;
-     background: var(--color1);
+     background: var($color1);
     }
   .navbar p{
       float: left;
@@ -28,7 +33,7 @@
       text-decoration: none;
       font-size: 15px;
       color: white;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-family: var($fuente1);
       
           }
           nav a:hover{
@@ -56,7 +61,7 @@
     background-size: cover;
     background-position: center;
     height: 400px;
-    color: var(--color2);
+    color: var($color2);
     text-shadow: 0 0 3px #333;
     text-align: left;
   }
@@ -132,7 +137,7 @@
    
   /* Inicio Estilo Formulario de Contacto */
   .body-form{
-      background-color: var(--color3);
+      background-color: var($color3);
       padding: 15px  ;
       margin: 20px 50px 20px 50px;
       }
@@ -167,14 +172,7 @@
       box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
       transform: translateY(-7px);
   }
-  /* /* @media only screen and (max-width: 600px) {
-       .btn-flotante {
-          font-size: 14px;
-          padding: 12px 20px;
-          bottom: 20px;
-          right: 20px;
-      } */
-    
+     
   /* Fin estilo botón de contacto */
   .btn-flotante{
       width: 100%;
@@ -183,26 +181,17 @@
   }
   /* Estilo Footer */
   .pie{
-    background-color: var(--color1)!important;
-    color: var(--color0)!important;
+    background-color: var($color1)!important;
+    color: var($color0)!important;
   }
   .nav{
     margin-left: 120px;
   }
-  .pie a{
-  text-align: right;
-  text-decoration: none;
-  padding: 5px;
-  }
-  .iconos{
-    text-align: left;
-  }
-  
-  
+ 
   .mt-5{
     height: 600px;
     width: 100%;
-    background-color: var(--color1);
+    background-color: var($color1);
     background-image: url(../images/bg-onda-azul.svg),url(../images/Noticiaslogistica.jpg);
     background-size:cover;
     background-position: center;
