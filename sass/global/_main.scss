@@ -1,10 +1,11 @@
 
 /* Variables y configuración general */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
 
-$fuente1:´Roboto´,400;
-$fuente2: ´ital400´;
+// Font Variables
+$font1: ‘Roboto Slab’, serif;
+$font2: ‘Open Sans’, sans-serif;
 :root{
     $color0: white;
     $color1:blue;
@@ -33,7 +34,7 @@ $fuente2: ´ital400´;
       text-decoration: none;
       font-size: 15px;
       color: white;
-      font-family: var($fuente1);
+      font-family: $font1;
       
           }
           nav a:hover{
@@ -94,19 +95,19 @@ $fuente2: ´ital400´;
       padding: 10px ;
       background-image: url(../images/Noticiaslogistica.jpg);
       background-size:cover;
-     background-position: center;
+      background-position: center;
       margin-top: 5px; 
      
       } 
       .noticias{
           padding: 10px;
-          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-family:$font1;
           background-position: center;
       }
       .noticias a{
           padding: 10px;
           font-weight: bold;
-          font: size 15px;
+          font-size:  15px;
           text-decoration: none;
           text-align: center;
           color:blue;
@@ -119,13 +120,13 @@ $fuente2: ´ital400´;
          /* Inicio estilo Servicios */
          .nuestroServicios{
           padding: 10px;
-          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-family: $font1;
           background-position: center;
       }
       .nuestrosServicios a{
           padding: 10px;
           font-weight: bold;
-          font: size 15px;
+          font-size:  15px;
           text-decoration: none;
           text-align: center;
           color:blue;
