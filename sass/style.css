@@ -6,6 +6,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
 html {
   line-height: 1.15;
   /* 1 */
@@ -342,74 +343,46 @@ template {
   display: none;
 }
 
-/* Variablesn y configuración general */
-:root {
-  --color0: white;
-  --color1:blue;
-  --color2: black;
-  --color3: rgb(239, 239, 248);
-}
-
-/* Inicio barra de navegación */
-.navbar {
-  min-width: 900px;
-  height: 90px;
-  background: var(--color1);
-}
-
-.navbar p {
-  float: left;
-  width: 20%;
-}
-
-/* Fin barra de navegación */
-/* Inicio menu de navegación */
-.navbar ul li {
-  list-style: none;
-  display: inline-block;
-  margin-left: 15px;
-}
-
-.navbar a {
-  text-decoration: none;
-  font-size: 15px;
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-nav a:hover {
-  color: red;
-}
-
+/* Variables y configuración general */
 /* .sumMenu{
-             display:inline-block;
-              list-style: none;
-             position:absolute;
-          } */
-/* Fin menú de navegación */
+    display:inline-block;
+    list-style: none;
+    position:absolute;
+} */
 /* Inicio Logo */
 /* Fin Logo */
-.navbar-brand {
-  size: 50px 50px;
-}
-
 /* Inicio  Estilo acerca de FFOne Inicio */
 .mt-4 {
   background-image: url(../images/acerca-de_FFone.jpg);
   background-size: cover;
   background-position: center;
   height: 400px;
-  color: var(--color2);
   text-shadow: 0 0 3px #333;
   text-align: left;
 }
 
+@media (max-width: 550px) {
+  .mt-4 {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+}
+
 .gradientacercade {
+  padding: 14px;
   width: 500px;
   -webkit-box-align: left;
       -ms-flex-align: left;
           align-items: left;
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 550px) {
+  .gradientacercade {
+    width: 100%;
+    padding: 10px;
+  }
 }
 
 /* Fin  Estilo acerca de FFOne Inicio */
@@ -438,14 +411,14 @@ nav a:hover {
 
 .noticias {
   padding: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: ‘Roboto Slab’, serif;
   background-position: center;
 }
 
 .noticias a {
   padding: 10px;
   font-weight: bold;
-  font: size 15px;
+  font-size: 15px;
   text-decoration: none;
   text-align: center;
   color: blue;
@@ -459,14 +432,14 @@ nav a:hover {
 /* Inicio estilo Servicios */
 .nuestroServicios {
   padding: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: ‘Roboto Slab’, serif;
   background-position: center;
 }
 
 .nuestrosServicios a {
   padding: 10px;
   font-weight: bold;
-  font: size 15px;
+  font-size: 15px;
   text-decoration: none;
   text-align: center;
   color: blue;
@@ -478,9 +451,15 @@ nav a:hover {
 
 /* Inicio Estilo Formulario de Contacto */
 .body-form {
-  background-color: var(--color3);
+  background-color: #efeff8;
   padding: 15px;
   margin: 20px 50px 20px 50px;
+}
+
+@media (max-width: 550px) {
+  .body-form {
+    margin: 10px 25px 10px 25px;
+  }
 }
 
 .btn btn-primary {
@@ -506,7 +485,7 @@ nav a:hover {
   /* Borde del boton */
   letter-spacing: 2px;
   /* Espacio entre letras */
-  background-color: #E91E63;
+  background-color: #e91e63;
   /* Color de fondo */
   padding: 18px 30px;
   /* Relleno del boton */
@@ -536,47 +515,83 @@ nav a:hover {
   padding: 10px;
 }
 
-/* Estilo Footer */
+.mt-5 {
+  height: 600px;
+  width: 100%;
+  background-color: blue;
+  background-image: url(../images/bg-onda-azul.svg), url(../images/Noticiaslogistica.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .pie {
-  background-color: var(--color1) !important;
-  color: var(--color0) !important;
+  background-color: blue !important;
+  color: white !important;
+}
+
+.pie a {
+  text-align: right;
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+}
+
+.pie a:hover {
+  color: #a4a4a4;
+}
+
+.pie .iconos {
+  padding: 10px;
+  text-align: center !important;
+  margin-top: 10px !important;
 }
 
 .nav {
   margin-left: 120px;
 }
 
-.mt-5 {
-  height: 600px;
-  width: 100%;
-  background-color: var(--color1);
-  background-image: url(../images/bg-onda-azul.svg), url(../images/Noticiaslogistica.jpg);
-  background-size: cover;
-  background-position: center;
+.navbar {
+  height: 90px;
+  background: blue;
+}
+
+.navbar p {
+  float: left;
+  width: 20%;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  font-family: ‘Roboto Slab’, serif;
+}
+
+.navbar .dropdown-menu {
+  background-color: blue;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+  color: #ffffff;
+  background-color: #0056b3;
+}
+
+.navbar-brand {
+  size: 50px 50px;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
 }
 
 .navbar-collapse.show {
   background: blue;
   z-index: 999;
-}
-
-/* Variablesn y configuración general */
-:root {
-  --color0: white;
-  --color1:blue;
-  --color2: black;
-  --color3: rgb(239, 239, 248);
-}
-
-.pie {
-  text-align: right;
-  text-decoration: none;
-  padding: 5px;
-}
-
-.iconos {
-  padding: 10px;
-  text-align: center !important;
-  margin-top: 10px !important;
 }
 /*# sourceMappingURL=style.css.map */

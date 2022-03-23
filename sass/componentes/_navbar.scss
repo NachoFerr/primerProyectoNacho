@@ -1,0 +1,51 @@
+.nav {
+  margin-left: 120px;
+}
+
+.navbar {
+  height: 90px;
+  background: $color1;
+
+  p {
+    float: left;
+    width: 20%;
+  }
+
+  ul {
+    li {
+      list-style: none;
+      display: inline-block;
+      margin-left: 15px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-family: $font1;
+  }
+
+  .dropdown-menu {
+    background-color: $color1;
+    .dropdown-item {
+      &:hover {
+        color: #ffffff;
+        background-color: #0056b3;
+      }
+    }
+  }
+}
+
+.navbar-brand {
+  size: 50px 50px;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.navbar-collapse.show {
+  background: $color1;
+  z-index: 999;
+}

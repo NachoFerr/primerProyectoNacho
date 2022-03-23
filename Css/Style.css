@@ -6,12 +6,12 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
 html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Sections
    ========================================================================== */
@@ -19,15 +19,13 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 /**
  * Render the `main` element consistently in IE.
  */
 main {
-  display: block;
-}
+  display: block; }
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -35,8 +33,7 @@ main {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-}
+  margin: 0.67em 0; }
 
 /* Grouping content
    ========================================================================== */
@@ -50,8 +47,7 @@ hr {
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -61,8 +57,7 @@ pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Text-level semantics
    ========================================================================== */
@@ -70,8 +65,7 @@ pre {
  * Remove the gray background on active links in IE 10.
  */
 a {
-  background-color: transparent;
-}
+  background-color: transparent; }
 
 /**
  * 1. Remove the bottom border in Chrome 57-
@@ -83,16 +77,14 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   text-decoration: underline dotted;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 b,
 strong {
-  font-weight: bolder;
-}
+  font-weight: bolder; }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -104,15 +96,13 @@ samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Add the correct font size in all browsers.
  */
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
@@ -123,16 +113,13 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 sub {
-  bottom: -0.25em;
-}
+  bottom: -0.25em; }
 
 sup {
-  top: -0.5em;
-}
+  top: -0.5em; }
 
 /* Embedded content
    ========================================================================== */
@@ -140,8 +127,7 @@ sup {
  * Remove the border on images inside links in IE 10.
  */
 img {
-  border-style: none;
-}
+  border-style: none; }
 
 /* Forms
    ========================================================================== */
@@ -161,8 +147,7 @@ textarea {
   line-height: 1.15;
   /* 1 */
   margin: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Show the overflow in IE.
@@ -171,8 +156,7 @@ textarea {
 button,
 input {
   /* 1 */
-  overflow: visible;
-}
+  overflow: visible; }
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -181,46 +165,41 @@ input {
 button,
 select {
   /* 1 */
-  text-transform: none;
-}
+  text-transform: none; }
 
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type=button],
-[type=reset],
-[type=submit] {
-  -webkit-appearance: button;
-}
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
 
 /**
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   border-style: none;
-  padding: 0;
-}
+  padding: 0; }
 
 /**
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
 
 /**
  * Correct the padding in Firefox.
  */
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
+  padding: 0.35em 0.75em 0.625em; }
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -240,60 +219,53 @@ legend {
   padding: 0;
   /* 3 */
   white-space: normal;
-  /* 1 */
-}
+  /* 1 */ }
 
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 progress {
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
 textarea {
-  overflow: auto;
-}
+  overflow: auto; }
 
 /**
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type=checkbox],
-[type=radio] {
+[type="checkbox"],
+[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
-  height: auto;
-}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type=search] {
+[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type=search]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -303,8 +275,7 @@ textarea {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Interactive
    ========================================================================== */
@@ -312,15 +283,13 @@ textarea {
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
 details {
-  display: block;
-}
+  display: block; }
 
 /*
  * Add the correct display in all browsers.
  */
 summary {
-  display: list-item;
-}
+  display: list-item; }
 
 /* Misc
    ========================================================================== */
@@ -328,96 +297,54 @@ summary {
  * Add the correct display in IE 10+.
  */
 template {
-  display: none;
-}
+  display: none; }
 
 /**
  * Add the correct display in IE 10.
  */
 [hidden] {
-  display: none;
-}
+  display: none; }
 
-/* Variablesn y configuración general */
-:root {
-  --color0: white;
-  --color1:blue;
-  --color2: black;
-  --color3: rgb(239, 239, 248);
-}
-
-/* Inicio barra de navegación */
-.navbar {
-  min-width: 900px;
-  height: 90px;
-  background: var(--color1);
-}
-
-.navbar p {
-  float: left;
-  width: 20%;
-}
-
-/* Fin barra de navegación */
-/* Inicio menu de navegación */
-.navbar ul li {
-  list-style: none;
-  display: inline-block;
-  margin-left: 15px;
-}
-
-.navbar a {
-  text-decoration: none;
-  font-size: 15px;
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-nav a:hover {
-  color: red;
-}
-
+/* Variables y configuración general */
 /* .sumMenu{
-   display:inline-block;
+    display:inline-block;
     list-style: none;
-   position:absolute;
+    position:absolute;
 } */
-/* Fin menú de navegación */
 /* Inicio Logo */
 /* Fin Logo */
-.navbar-brand {
-  size: 50px 50px;
-}
-
 /* Inicio  Estilo acerca de FFOne Inicio */
 .mt-4 {
   background-image: url(../images/acerca-de_FFone.jpg);
   background-size: cover;
   background-position: center;
   height: 400px;
-  color: var(--color2);
   text-shadow: 0 0 3px #333;
-  text-align: left;
-}
+  text-align: left; }
+  @media (max-width: 550px) {
+    .mt-4 {
+      height: max-content; } }
 
 .gradientacercade {
+  padding: 14px;
   width: 500px;
   align-items: left;
-  background-color: rgba(0, 0, 0, 0.1);
-}
+  background-color: rgba(0, 0, 0, 0.1); }
+  @media (max-width: 550px) {
+    .gradientacercade {
+      width: 100%;
+      padding: 10px; } }
 
 /* Fin  Estilo acerca de FFOne Inicio */
 /* Inicio  Estilo  Imagen Inicio */
 .card {
   text-shadow: 0 0 3px #333;
-  text-align: left;
-}
+  text-align: left; }
 
 .card-img-top {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.1);
-  background-image: -moz-linear-gradient rgba(0, 0, 0, 0.9);
-}
+  background-image: -moz-linear-gradient rgba(0, 0, 0, 0.9); }
 
 /* Estilo Noticias */
 .bannerNoticias {
@@ -427,63 +354,56 @@ nav a:hover {
   background-image: url(../images/Noticiaslogistica.jpg);
   background-size: cover;
   background-position: center;
-  margin-top: 5px;
-}
+  margin-top: 5px; }
 
 .noticias {
   padding: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-position: center;
-}
+  font-family: ‘Roboto Slab’, serif;
+  background-position: center; }
 
 .noticias a {
   padding: 10px;
   font-weight: bold;
-  font: size 15px;
+  font-size: 15px;
   text-decoration: none;
   text-align: center;
-  color: blue;
-}
+  color: blue; }
 
 .noticias p {
-  padding: 10px;
-}
+  padding: 10px; }
 
 /* Fin Estilo  Noticias */
 /* Inicio estilo Servicios */
 .nuestroServicios {
   padding: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-position: center;
-}
+  font-family: ‘Roboto Slab’, serif;
+  background-position: center; }
 
 .nuestrosServicios a {
   padding: 10px;
   font-weight: bold;
-  font: size 15px;
+  font-size: 15px;
   text-decoration: none;
   text-align: center;
-  color: blue;
-}
+  color: blue; }
 
 .nuestrosServicios p {
-  padding: 10px;
-}
+  padding: 10px; }
 
 /* Inicio Estilo Formulario de Contacto */
 .body-form {
-  background-color: var(--color3);
+  background-color: #efeff8;
   padding: 15px;
-  margin: 20px 50px 20px 50px;
-}
+  margin: 20px 50px 20px 50px; }
+  @media (max-width: 550px) {
+    .body-form {
+      margin: 10px 25px 10px 25px; } }
 
 .btn btn-primary {
-  padding: 10px;
-}
+  padding: 10px; }
 
 .titcontactos {
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 /* Fin estilo formulario de contacto */
 /* Inicio estilo botón de contacto */
@@ -500,7 +420,7 @@ nav a:hover {
   /* Borde del boton */
   letter-spacing: 2px;
   /* Espacio entre letras */
-  background-color: #E91E63;
+  background-color: #e91e63;
   /* Color de fondo */
   padding: 18px 30px;
   /* Relleno del boton */
@@ -509,62 +429,75 @@ nav a:hover {
   right: 40px;
   transition: all 300ms ease 0ms;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  z-index: 99;
-}
+  z-index: 99; }
 
 .btn-flotante:hover {
   background-color: #2c2fa5;
   /* Color de fondo al pasar el cursor */
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
-  transform: translateY(-7px);
-}
+  transform: translateY(-7px); }
 
-/* /* @media only screen and (max-width: 600px) {
-     .btn-flotante {
-        font-size: 14px;
-        padding: 12px 20px;
-        bottom: 20px;
-        right: 20px;
-    } */
 /* Fin estilo botón de contacto */
 .btn-flotante {
   width: 100%;
   height: 600px;
-  padding: 10px;
-}
-
-/* Estilo Footer */
-.pie {
-  background-color: var(--color1) !important;
-  color: var(--color0) !important;
-}
-
-.nav {
-  margin-left: 120px;
-}
-
-.pie a {
-  text-align: right;
-  text-decoration: none;
-  padding: 5px;
-}
-
-.iconos {
-  text-align: left;
-}
+  padding: 10px; }
 
 .mt-5 {
   height: 600px;
   width: 100%;
-  background-color: var(--color1);
+  background-color: blue;
   background-image: url(../images/bg-onda-azul.svg), url(../images/Noticiaslogistica.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
+
+.pie {
+  background-color: blue !important;
+  color: white !important; }
+  .pie a {
+    text-align: right;
+    text-decoration: none;
+    padding: 5px;
+    color: white; }
+    .pie a:hover {
+      color: #a4a4a4; }
+  .pie .iconos {
+    padding: 10px;
+    text-align: center !important;
+    margin-top: 10px !important; }
+
+.nav {
+  margin-left: 120px; }
+
+.navbar {
+  height: 90px;
+  background: blue; }
+  .navbar p {
+    float: left;
+    width: 20%; }
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px; }
+  .navbar a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-family: ‘Roboto Slab’, serif; }
+  .navbar .dropdown-menu {
+    background-color: blue; }
+    .navbar .dropdown-menu .dropdown-item:hover {
+      color: #ffffff;
+      background-color: #0056b3; }
+
+.navbar-brand {
+  size: 50px 50px; }
+
+.navbar-toggler-icon {
+  background-color: #fff; }
 
 .navbar-collapse.show {
   background: blue;
-  z-index: 999;
-}
+  z-index: 999; }
 
 /*# sourceMappingURL=style.css.map */

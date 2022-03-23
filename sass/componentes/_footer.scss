@@ -1,19 +1,18 @@
-/* Variablesn y configuración general */
-:root{
-    --color0: white;
-    --color1:blue;
-    --color2: black;
-    --color3: rgb(239, 239, 248);
-  }
-  
 .pie {
+  background-color: $color1 !important;
+  color: $color0 !important;
+  a {
     text-align: right;
     text-decoration: none;
     padding: 5px;
-        }
-    .iconos{
-     padding: 10px;
-     text-align: center!important;
-     margin-top: 10px!important;
+    color: $color0;
+    &:hover {
+      color: #a4a4a4;
     }
-    
+  }
+  .iconos {
+    padding: 10px;
+    text-align: center !important;
+    margin-top: 10px !important;
+  }
+}
